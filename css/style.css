@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+*{
+    font-family: 'Cairo';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: #a47575;
+    color: rgb(136, 172, 187);
+    font-weight: 3000;
+    font-style: bold;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100px;
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px
+
+
+}
+
+header a:hover{
+    color:rgb(136, 172, 187)
+}
+
+.pic{
+    height: 80vh;
+    display: flex;
+    align-items: center ;
+    color: white;
+    background-image: url(images/f2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,.10);
+    background-position: center;
+
+
+}
+.pic div{
+    margin-left: 80px;
+}
+.pic a{
+    color: white;
+    text-decoration: none;
+    background-color: #a47575;
+    padding: 10px;
+    border-radius: 6px 20px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.pic span{
+    color: rgb(136, 172, 187);
+    font-weight: 5000;
+    
+}
+.services h2 {
+
+    text-align: center;
+color: #a47575;
+margin: 30px 0px;
+
+
+}
+
+.services .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 80px;
+  
+}
+.services .card{
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    width: 15em;
+    margin-bottom: 50px; 
+    text-align: center;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+.card h3{
+    color:rgb(136, 172, 187) ;
+    font: weight 1000px;;
+}
+.card p{
+    font-size: 20px;
+}
+.services .card-c{
+    margin: 0px 10px;
+    
+}
+.services img{
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+}
+.shortcuts{
+    background-color: #a47575;
+    text-align: center;
+    padding: 30px 100px;
+
+}
+.shortcuts h2{
+    color: white ;
+    margin-bottom: 20px;
+    border-bottom: solid rgb(136, 172, 187);
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.shortcuts .container{
+   display: flex; 
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.shortcuts .card{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    width: 16em;
+    margin-bottom: 30px; 
+    overflow: hidden;
+    min-height: 250px;
+}
+.shortcuts button{
+    border-radius: 6px 20px;
+    color: white;
+    background-color:rgb(136, 172, 187) ;
+    padding: 0px 9px;
+    border: none;
+
+}
+.shortcuts .card-d{
+    margin: 0px 10px;
+    
+}
+.shortcuts .card-d button{
+    align-self: end;
+    margin-left: 10px;
+    font-weight: 200;
+}
+.shortcuts img{
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #a47575;
+    color: white;
+    padding: 20px;
+   }
+footer span{
+    color: rgb(136, 172, 187);
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+.pic-S{
+
+    height: 100vh;
+    display: flex;
+    align-items: center ;
+    color: white;
+    background-image: url(images/homepic2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,.10);
+    background-position: center;
+
+}
+.intro-S{
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    background-color: #a47575;
+}
+.intro-S h2{
+    color: #a47575;
+    font-size: 25px;
+}
+.intro-S p{
+    font-size: 15px;
+}
+.intro-des{
+    width:60%;
+    text-align: center;
+    
+}
+.intro-img{
+    width: 40%;
+    margin-right: 30px;
+    
+}
+
+.intro-img img{
+    width: 300%;
+}
+
+.Subscr h2 {
+
+text-align: center;
+color: #a47575;
+margin: 30px 0px;
+}
+
+.Subscr .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 80px;
+  
+  
+}
+.Subscr .card {
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    width: 15em;
+    margin-bottom: 50px; 
+    text-align: center;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+.Subscr .card h3{
+    color:rgb(136, 172, 187) ;
+    font: weight 1000px;;
+}
+.Subscr .card p{
+    font-size: 20px;
+}
+.Subscr .card-S{
+    margin: 0px 10px;
+    
+}
+.Subscr img{
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.choose{
+    padding: 100px;
+    background-color:#a47575 ;
+    text-align: center;
+}
+.choose h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    border-bottom: solid rgb(136, 172, 187);
+    display: inline-block;
+}
+
+.input-f{
+    position: relative;
+    width: 100%;
+    margin-right: 20px;
+
+
+}
+.input-t{
+    position: relative;
+    margin-right: 20px;
+    width: 100%;
+
+
+}
+.input-f  label{
+    font-size: 16px;
+    position: absolute;
+    color: white;
+    top: -40%;
+    right: 1px;
+    transform: translate(-50%);
+}
+ .input-f select{
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    width: 100%;
+    height: 40px;
+    
+ }
+
+ .input-t input{
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    width: 100%;
+    height: 40px;
+    
+ }
+ .input-t  label{
+    font-size: 12px;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+.input-t input:hover~label,
+.input-t input:valid~label{
+ top: 15%;
+ transform: translateY(-40%);
+}
+
+.SizeLocat, .StyleType, .NoteAddit{
+    display: flex;
+    margin-right: 20px;
+}
+
+
+.specialN{
+    position: relative;
+    margin-right: 20px;
+    width: 100%;
+
+
+}
+
+.specialN input{
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    width: 100%;
+    height: 40px;
+    
+ }
+ .specialN  label{
+    font-size: 12px;
+    position: absolute;
+    top: 40%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+.specialN input:hover~label,
+.specialN input:valid~label{
+ top: 15%;
+ transform: translateY(-40%);
+}
+
+
+
